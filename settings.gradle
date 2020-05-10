@@ -1,0 +1,2 @@
+include ':app', ':shadowless_gradle_plugin', ':medialibrary', ':AndroidStub', ':core'
+rootProject.name='Shadowless'

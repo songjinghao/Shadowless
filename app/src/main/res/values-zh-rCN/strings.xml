@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="apple">苹果</string>
+    <string name="banana">香蕉</string>
+    <string name="orange">橘子</string>
+    <string name="kiwi">奇异果</string>
+    <string name="pitaya">火龙果</string>
+    <string name="pomegranate">石榴</string>
+    <string name="strawberry">草莓</string>
+    <string name="watermelon">西瓜</string>
+</resources>

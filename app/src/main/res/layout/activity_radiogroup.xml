@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RadioGroupTestActivity">
+
+    <RadioGroup
+        android:id="@+id/rg_fruit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rbt_apple"
+            style="@style/ai_rg_tab"
+            android:button="@mipmap/apple"
+            android:text="@string/apple" />
+
+        <RadioButton
+            android:id="@+id/rbt_banana"
+            style="@style/ai_rg_tab"
+            android:button="@mipmap/banana"
+            android:text="@string/banana" />
+
+        <RadioButton
+            android:id="@+id/rbt_pitaya"
+            style="@style/ai_rg_tab"
+            android:button="@mipmap/pitaya"
+            android:text="@string/pitaya" />
+
+        <RadioButton
+            android:id="@+id/rbt_kiwi"
+            style="@style/ai_rg_tab"
+            android:button="@mipmap/kiwi"
+            android:text="@string/kiwi" />
+
+        <RadioButton
+            android:id="@+id/rbt_orange"
+            style="@style/ai_rg_tab"
+            android:button="@mipmap/orange"
+            android:text="@string/orange" />
+
+        <RadioButton
+            android:id="@+id/rbt_strawberry"
+            style="@style/ai_rg_tab"
+            android:button="@mipmap/strawberry"
+            android:text="@string/strawberry" />
+
+        <RadioButton
+            android:id="@+id/rbt_watermelon"
+            style="@style/ai_rg_tab"
+            android:button="@mipmap/watermelon"
+            android:text="@string/watermelon" />
+
+        <RadioButton
+            android:id="@+id/rbt_pomegranate"
+            style="@style/ai_rg_tab"
+            android:button="@mipmap/pomegranate"
+            android:text="@string/pomegranate" />
+    </RadioGroup>
+
+</ScrollView>

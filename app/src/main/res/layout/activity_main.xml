@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/rootView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入搜索内容"/>
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/normalButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="普通 setOnClickListener"
+            android:textAllCaps="false" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/lambdaTest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lambda 语法 setOnClickListener"
+            android:textAllCaps="false" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="clickTv3"
+            android:text="android:onClick 绑定 OnClickListener"
+            android:textAllCaps="false" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/RecyclerViewTest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RecyclerView Test"
+            android:textAllCaps="false" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/tabHostButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TabHost Test"
+            android:textAllCaps="false" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/radioGroupButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RadioGroup Test"
+            android:textAllCaps="false" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/adapterViewTest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AdapterView Test"
+            android:textAllCaps="false" />
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="彩虹" />
+
+        <android.support.v7.widget.AppCompatSeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/showDialogButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dialog Test"
+            android:textAllCaps="false" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/showMultiChoiceDialogButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MultiChoice Dialog Test"
+            android:textAllCaps="false" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/viewPagerButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ViewPager Test"
+            android:textAllCaps="false" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/tabLayoutButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TabLayout Test"
+            android:textAllCaps="false" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/intentServiceButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="IntentService Test"
+            android:textAllCaps="false" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/serviceButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Service Test"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+</ScrollView>

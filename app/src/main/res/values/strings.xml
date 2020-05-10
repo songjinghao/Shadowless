@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ShadowlessDemo</string>
+    <string name="apple">Apple</string>
+    <string name="banana">Banana</string>
+    <string name="orange">Orange</string>
+    <string name="kiwi">Kiwi</string>
+    <string name="pitaya">Pitaya</string>
+    <string name="pomegranate">Pomegranate</string>
+    <string name="strawberry">Strawberry</string>
+    <string name="watermelon">Watermelon</string>
+</resources>
