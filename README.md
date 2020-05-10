@@ -1,6 +1,6 @@
 # Shadowless
 
-提供数据埋点（无埋点方案）能力的SDK，业务侵入性非常小。
+
 
 
 # Getting started
@@ -13,13 +13,13 @@ dependencies {
 }
 ```
 
-Apply plugin in application module of `build.gradle`.
+Apply plugin in `app` module of `build.gradle`.
 
 ``` java
 apply plugin: 'com.paul.song.analytics'
 ```
 
-Implementation Shadowless in application module of `build.gradle`.
+Implementation Shadowless in `app` module of `build.gradle`.
 
 ``` java
 implementation 'com.paul.song.library:shadowless-sdk:(insert latest version)'
